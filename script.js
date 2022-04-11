@@ -4,7 +4,6 @@ let checkBtn = document.querySelector('.check');
 let againBtn = document.querySelector('.again');
 let score = 20;
 let highScore = 0;
-
 const displayMessage = function (className, message) {
   document.querySelector(className).textContent = message;
 };
